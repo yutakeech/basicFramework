@@ -68,8 +68,8 @@ class Router
     // }
 
     // Функция "регистрации" (добавления) маршрута
-    public static function addRoute($route)
+    public static function addRoute($request)
     {
-        array_push(self::$routes, $route);
+        array_push(self::$routes, $request);
     }
 }
